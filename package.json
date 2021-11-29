@@ -1,0 +1,37 @@
+{
+  "name": "conventional-changelog-dash",
+  "version": "1.0.0",
+  "description": "conventional-changelog dash preset",
+  "main": "index.js",
+  "scripts": {
+    "test-windows": "mocha --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shumkov/conventional-changelog-dash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shumkov/conventional-changelog-dash/issues"
+  },
+  "homepage": "https://github.com/shumkov/conventional-changelog-dash#readme",
+  "keywords": [
+    "conventional-changelog",
+    "preset"
+  ],
+  "files": [
+    "add-bang-notes.js",
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "dependencies": {
+    "compare-func": "^2.0.0",
+    "lodash": "^4.17.15",
+    "q": "^1.5.1"
+  }
+}
