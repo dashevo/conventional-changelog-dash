@@ -184,7 +184,7 @@ function defaultConfig (config) {
     { type: 'revert', section: 'Reverts', hidden: true },
     { type: 'docs', section: 'Documentation' },
     { type: 'style', section: 'Styles' },
-    { type: 'chore', section: 'Miscellaneous Chores', hidden: true },
+    { type: 'chore', section: 'Miscellaneous Chores' },
     { type: 'refactor', section: 'Code Refactoring' },
     { type: 'test', section: 'Tests' },
     { type: 'build', section: 'Build System' },
